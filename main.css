@@ -19,7 +19,7 @@ article {
     left:0;
     width: 250px;
     height: 100%;
-    background: #ffc0cb;
+    background: #785129;
 }
 
 .sidebar header {
@@ -27,7 +27,7 @@ article {
     color:white;
     text-align: center;
     line-height: 60px;
-    background: pink;
+    background: #785129;
     user-select: none;
 }
 
