@@ -86,7 +86,7 @@ main{
     text-align: left;
     text-decoration: solid;
     text-size-adjust: 20px;
-    color: #e9d18a#e9d18a;
+    color: #e9d18a;
 }
 
 .box article s1{
@@ -122,7 +122,7 @@ main{
 .dropdown_content {
     display: none;
     position: static;
-    background-color: white opacity(50%); 
+    background-color: #e9d18a opacity(50%); 
     height: 100%;
     width: 100%;
     line-height:50px;
