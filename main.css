@@ -37,7 +37,7 @@ article {
     width: 100%;
     line-height:60px;
     font-size:20px;
-    color: rgb(89, 19, 158);
+    color: #e9d18a;
     padding-left:40px;
     box-sizing: border-box;
     border-top: none;
@@ -86,21 +86,21 @@ main{
     text-align: left;
     text-decoration: solid;
     text-size-adjust: 20px;
-    color: #785129;
+    color: #e9d18a#e9d18a;
 }
 
 .box article s1{
     text-align: left;
     text-decoration: solid;
     text-size-adjust: 20px;
-    color: #785129;
+    color: #e9d18a;
 }
 
 .box article p{
     text-align: left;
     text-decoration: solid;
     text-size-adjust: 20px;
-    color: #785129;
+    color: #e9d18a;
 }
 
 .dropdown_div {
@@ -110,7 +110,7 @@ main{
 
 .dropdown_button {
     background-color: opacity;
-    color: rgb(89, 19, 158);
+    color: #e9d18a;
     padding: 3.5px;
     font-size: 16px;
     border: none;
