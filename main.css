@@ -24,11 +24,15 @@ article {
 
 .sidebar header {
     font-size: 22px;
-    color:white;
+    color: #7a532b;
     text-align: center;
     line-height: 60px;
     background: #785129;
     user-select: none;
+}
+
+.sidebar header {
+    
 }
 
 .sidebar ul a{
