@@ -81,7 +81,7 @@ main{
 .box {
     background-color: #7a532b;
     padding-right: 250px;
-    height: 150px;
+    height: auto;
     margin-right: 50%;
     margin-bottom: 150%;
 }
