@@ -105,47 +105,51 @@
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #e9d18a;}
 
-  main {
-      padding-left: 9.4em;
-      padding-top: 1.4em;
-  }
-
 body {
-    background-image: url(assets/icons/IMG_2505.png);
+    background-image: url(assets/icons/me.PNG);
     background-image: 500%;
     background-repeat: repeat;
 }
 
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */  
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+.headline {
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-left: 0px;
+  Margin-right: 700px;
+  border: #785129;
+  padding-right: auto;
 }
 
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+.headline img {
+  text-align: right;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color: #45a049;
+.headline h2 {
+  text-align: left;
 }
 
-/* Add a background color and some padding around the form */
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+.headline p {
+  text-align: left;
 }
+
+main {
+  display: grid;
+  grid-template-areas: 
+      "topbar topbar topbar"
+      "content content ads"
+      "footer footer footer";
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 70px 70px 50px;
+  align-items: center;
+  justify-items: auto;
+
+  padding-left: 9.0em;
+  padding-top: 14.0em;
+
+}
+
+header  { grid-area: topbar; }
+aside   { grid-area: ads; }
+article { grid-area: content; }
+footer  { grid-area: footer; }
+
