@@ -1,0 +1,238 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+    height: 100%;
+    width: 125px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #785129;
+    overflow-x: hidden;
+    padding-top: 5px;
+  }
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #e9d18a;
+  }
+  
+  /* Main content */
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-color: green;
+    color: white;
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+
+  /* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .buttonback {
+    background-color: transparent;
+    border: none;
+
+  }
+
+  .buttonback a:hover{
+    background-color: #e9d18a;
+
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #e9d18a;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #e9d18a;}
+
+body {
+    background-image: url(assets/icons/me.PNG);
+    background-image: 500%;
+    background-repeat: repeat;
+}
+
+.headline {
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-left: 0px;
+  Margin-right: 700px;
+  border: #785129;
+  padding-right: auto;
+}
+
+.headline img {
+  text-align: right;
+}
+
+.headline h2 {
+  text-align: left;
+}
+
+.headline p {
+  text-align: left;
+}
+
+.homemain {
+  padding-left: 9.0em;
+  padding-top: 1.0em;
+}
+
+header  { grid-area: topbar; }
+aside   { grid-area: ads; }
+article { grid-area: content; }
+footer  { grid-area: footer; }
+
+
+.legal {
+  padding-left: 9.0em;
+  padding-top: 1.3em;
+}
+
+.img{
+  min-width: 240px;
+  width: 685.9px;
+  height: 50%;
+}
+
+.container {
+  background-color: #785129;
+  padding: 20px;
+  border: 4px solid #5a371b;
+  width: 640px;
+  height: 100%;
+  min-width: 240px;
+  
+}
+
+h1 {color: #e9d18a;}
+s1 {color: #e9d18a;}
+p {color: #e9d18a;}
+.textcenter {text-align: center;}
+
+.textsection_right {
+  background-color: #785129;
+  border: 4px solid#5a371b;
+  padding: 20px;
+  width: 333px;
+  height: 103px;
+  margin-left: 15px;
+}
+
+.textsection_left {
+  background-color: #785129;
+  border: 4px solid#5a371b;
+  padding: 20px;
+  width: 330px;
+  height: 103px;
+  margin-right: 15px;
+}
+
+.container_gallery {
+  background-color: #785129;
+  padding: 20px;
+  border: 4px solid #5a371b;
+  width: 640px;
+  height: 320px;
+  min-width: 240px;
+  
+}
+
+div.gallery {
+  margin: 5px;
+  border: 4px solid #5a371b;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 4px solid #e9d18a;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color:#e9d18a;
+}
+
+footer {
+  background-color: #e9d18a;
+  border-top: 4px solid #785129;
+  margin-left: -19px;
+  padding: 20px;
+}
